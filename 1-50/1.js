@@ -1,6 +1,16 @@
 /* 1. Two Sum
  * link: https://leetcode.com/problems/two-sum/
- */
+
+Given an array of integers, find two numbers such that they add up to a specific target number.
+
+The function twoSum should return indices of the two numbers such that they add up to the target, where index1 must be less than index2. Please note that your returned answers (both index1 and index2) are not zero-based.
+
+You may assume that each input would have exactly one solution.
+
+Input: numbers={2, 7, 11, 15}, target=9
+Output: index1=1, index2=2
+
+*/
 
 /**
  * @param {number[]} nums
@@ -41,6 +51,7 @@ var twoSum1 = function (nums, target) {
     arr.sort(function (a, b) {
         return a.value - b.value;
     });
+
     for (i=0, j=arr.length-1; i < j;) {
         if(arr[i].value + arr[j].value === target) {
             if (arr[i].index < arr[j].index) {
