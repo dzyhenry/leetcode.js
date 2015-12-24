@@ -25,24 +25,24 @@ var lengthOfLongestSubstring = function(s) {
     if(s.length === 0) return 0;
     if(s.length === 1) return 1;
     
-    var exsists = {}, len = [];
+    var exsists = {}, preMaxLen;
     var maxLen = 1;
     var repeatIndex;
-    len[0] = 1;
+    preMaxLen = 1;
     exsists[s[0]] = 0;
     for(var i=1; i<s.length; ++i){
         if(exsists[s[i]] !== undefined) {
             repeatIndex = exsists[s[i]];
-            if(len[i-1] < i - repeatIndex){
-                len[i] = len[i-1] + 1;
+            if(preMaxLen < i - repeatIndex){
+                preMaxLen = preMaxLen + 1;
             } else {
-                len[i] = i - repeatIndex;
+                preMaxLen = i -  repeatIndex;
             }
         } else {
-            len[i] = len[i-1] + 1;
+            preMaxLen = preMaxLen + 1;
         }
         exsists[s[i]] = i;
-        maxLen = len[i] > maxLen ? len[i] : maxLen;
+        maxLen = preMaxLen > maxLen ? preMaxLen : maxLen;
     }
     return maxLen;
 };
