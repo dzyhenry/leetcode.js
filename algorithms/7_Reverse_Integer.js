@@ -7,7 +7,7 @@ Example2: x = -123, return -321
 
 */
 
-// 思路很简单直接，提取整数的每一位，反转，再拼凑出结果就ok了。此题leetcode上的JavaScript OJ 有bug，超过11位就出问题了。
+// 思路很简单直接，提取整数的每一位，反转，再拼凑出结果就ok了。// 注意整数溢出
 
 /*
  * @param {number} x
@@ -34,7 +34,7 @@ var reverse = function(x) {
     }
     res = x >= 0 ? res : -res;
 
-    // 为了过OJ整数溢出判断
+    // 整数溢出判断
     if (res > 2147483647 || res < -2147483647) {
         res = 0;
     }
@@ -54,7 +54,7 @@ var reverse1 = function(x) {
     }
     res = x < 0 ? -res : res;
 
-    // 为了过OJ整数溢出判断
+    // 整数溢出判断
     if (res > 2147483647 || res < -2147483647) {
         res = 0;
     }
