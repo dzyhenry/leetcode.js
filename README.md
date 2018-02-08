@@ -4,7 +4,7 @@ A repository of my leetcode solutions in JavaScript.
 
 ## What are here
 
-- Solve leetcode problems in JavaScript aiming at practicing algorithms and JavaScript.
+- Solve leetcode problems in JavaScript.
 
 ## Problems
 
@@ -23,7 +23,7 @@ A repository of my leetcode solutions in JavaScript.
 |11|[Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/)|[JavaScript](./algorithms/11_Container_With_Most_Water) |Medium|
 |12|[Integer to Roman](https://oj.leetcode.com/problems/integer-to-roman/)||Medium|
 |13|[Roman to Integer](https://oj.leetcode.com/problems/roman-to-integer/)||Easy|
-|14|[Longest Common Prefix](https://oj.leetcode.com/problems/longest-common-prefix/)||Easy|
+|14|[Longest Common Prefix](https://oj.leetcode.com/problems/longest-common-prefix/)|[JavaScript](./algorithms/12_Longest_Common_Prefix)|Easy|
 |15|[3Sum](https://oj.leetcode.com/problems/3sum/)||Medium|
 |16|[3Sum Closest](https://oj.leetcode.com/problems/3sum-closest/)||Medium|
 |17|[Letter Combinations of a Phone Number](https://oj.leetcode.com/problems/letter-combinations-of-a-phone-number/)||Medium|
