@@ -20,14 +20,14 @@ A repository of my leetcode solutions in JavaScript.
 |8|[String to Integer](https://leetcode.com/problems/string-to-integer-atoi/) | [JavaScript](./algorithms/8_String_to_Integer.js)|Easy|
 |9|[Palindrome Number](https://leetcode.com/problems/palindrome-number/) | [JavaScript](./algorithms/9_Palindrome_Number.js)|Easy|
 |10|[Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/description/)| [JavaScript](./algorithms/10_regular_expression_match)|Hard|
-|11|[Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/)|[JavaScript](./algorithms/11_Container_With_Most_Water) |Medium|
+|11|[Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/)|[JavaScript](./algorithms/11_Container_With_Most_Water.js) |Medium|
 |12|[Integer to Roman](https://oj.leetcode.com/problems/integer-to-roman/)||Medium|
 |13|[Roman to Integer](https://oj.leetcode.com/problems/roman-to-integer/)||Easy|
-|14|[Longest Common Prefix](https://oj.leetcode.com/problems/longest-common-prefix/)|[JavaScript](./algorithms/12_Longest_Common_Prefix)|Easy|
-|15|[3Sum](https://oj.leetcode.com/problems/3sum/)||Medium|
-|16|[3Sum Closest](https://oj.leetcode.com/problems/3sum-closest/)||Medium|
+|14|[Longest Common Prefix](https://oj.leetcode.com/problems/longest-common-prefix/)|[JavaScript](./algorithms/12_Longest_Common_Prefix.js)|Easy|
+|15|[3Sum](https://oj.leetcode.com/problems/3sum/)|[JavaScript](./algorithms/15_3Sum.js)|Medium|
+|16|[3Sum Closest](https://oj.leetcode.com/problems/3sum-closest/)|[JavaScript](./algorithms/16_3Sum_Closest.js)|Medium|
 |17|[Letter Combinations of a Phone Number](https://oj.leetcode.com/problems/letter-combinations-of-a-phone-number/)||Medium|
-|18|[4Sum](https://oj.leetcode.com/problems/4sum/)| |Medium|
+|18|[4Sum](https://oj.leetcode.com/problems/4sum/)|[JavaScript](./algorithms/18_4Sum.js)|Medium|
 |19|[Remove Nth Node From End of List](https://oj.leetcode.com/problems/remove-nth-node-from-end-of-list/)||Easy|
 |20|[Valid Parentheses](https://oj.leetcode.com/problems/valid-parentheses/)||Easy|
 |21|[Merge Two Sorted Lists](https://oj.leetcode.com/problems/merge-two-sorted-lists/)||Easy|
