@@ -21,21 +21,21 @@ A repository of my leetcode solutions in JavaScript.
 |9|[Palindrome Number](https://leetcode.com/problems/palindrome-number/) | [JavaScript](./algorithms/9_Palindrome_Number.js)|Easy|
 |10|[Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/description/)| [JavaScript](./algorithms/10_regular_expression_match)|Hard|
 |11|[Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/)|[JavaScript](./algorithms/11_Container_With_Most_Water.js) |Medium|
-|12|[Integer to Roman](https://oj.leetcode.com/problems/integer-to-roman/)||Medium|
-|13|[Roman to Integer](https://oj.leetcode.com/problems/roman-to-integer/)||Easy|
+|12|[Integer to Roman](https://leetcode.com/problems/integer-to-roman/)||Medium|
+|13|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/)||Easy|
 |14|[Longest Common Prefix](https://oj.leetcode.com/problems/longest-common-prefix/)|[JavaScript](./algorithms/12_Longest_Common_Prefix.js)|Easy|
 |15|[3Sum](https://oj.leetcode.com/problems/3sum/)|[JavaScript](./algorithms/15_3Sum.js)|Medium|
 |16|[3Sum Closest](https://oj.leetcode.com/problems/3sum-closest/)|[JavaScript](./algorithms/16_3Sum_Closest.js)|Medium|
 |17|[Letter Combinations of a Phone Number](https://oj.leetcode.com/problems/letter-combinations-of-a-phone-number/)||Medium|
 |18|[4Sum](https://oj.leetcode.com/problems/4sum/)|[JavaScript](./algorithms/18_4Sum.js)|Medium|
-|19|[Remove Nth Node From End of List](https://oj.leetcode.com/problems/remove-nth-node-from-end-of-list/)||Easy|
-|20|[Valid Parentheses](https://oj.leetcode.com/problems/valid-parentheses/)||Easy|
-|21|[Merge Two Sorted Lists](https://oj.leetcode.com/problems/merge-two-sorted-lists/)||Easy|
-|22|[Generate Parentheses](https://oj.leetcode.com/problems/generate-parentheses/)||Medium|
-|23|[Merge k Sorted Lists](https://oj.leetcode.com/problems/merge-k-sorted-lists/)||Hard|
-|24|[Swap Nodes in Pairs](https://oj.leetcode.com/problems/swap-nodes-in-pairs/)||Medium|
-|25|[Reverse Nodes in k-Group](https://oj.leetcode.com/problems/reverse-nodes-in-k-group/)||Hard|
-|26|[Remove Duplicates from Sorted Array](https://oj.leetcode.com/problems/remove-duplicates-from-sorted-array/)||Easy|
+|19|[Remove Nth Node From End of List](https://oj.leetcode.com/problems/remove-nth-node-from-end-of-list/)|[JavaScript](./algorithms/19_Remove_Nth_Node_From_End_of_List.js)|Easy|
+|20|[Valid Parentheses](https://oj.leetcode.com/problems/valid-parentheses/)|[JavaScript](./algorithms/20_Valid_Parentheses.js)|Easy|
+|21|[Merge Two Sorted Lists](https://oj.leetcode.com/problems/merge-two-sorted-lists/)|[JavaScript]()|Easy|
+|22|[Generate Parentheses](https://oj.leetcode.com/problems/generate-parentheses/)|[JavaScript]()|Medium|
+|23|[Merge k Sorted Lists](https://oj.leetcode.com/problems/merge-k-sorted-lists/)|[JavaScript]()|Hard|
+|24|[Swap Nodes in Pairs](https://oj.leetcode.com/problems/swap-nodes-in-pairs/)|[JavaScript]()|Medium|
+|25|[Reverse Nodes in k-Group](https://oj.leetcode.com/problems/reverse-nodes-in-k-group/)|[JavaScript]()|Hard|
+|26|[Remove Duplicates from Sorted Array](https://oj.leetcode.com/problems/remove-duplicates-from-sorted-array/)|[JavaScript]()|Easy|
 |27|[Remove Element](https://oj.leetcode.com/problems/remove-element/)| |Easy|
 |28|[Implement strStr()](https://oj.leetcode.com/problems/implement-strstr/)| |Easy|
 |29|[Divide Two Integers](https://oj.leetcode.com/problems/divide-two-integers/)| |Medium|
