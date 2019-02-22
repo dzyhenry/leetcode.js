@@ -8,6 +8,7 @@ const { readFileSync, writeFileSync } = require('fs');
 
 const HOSTNAME = 'leetcode.com';
 const PATH = '/api/problems/all/';
+const COOKIE = 'LEETCODE_SESSION=ToBeAddWhenRequired';
 
 const updateReadme = async(problemCount) => {
   // fetch problems
@@ -15,6 +16,10 @@ const updateReadme = async(problemCount) => {
     const req = https.request({
       hostname: HOSTNAME,
       path: PATH,
+      headers: {
+        // When cookie is added, we could get the problem accepted status.
+        cookie: COOKIE,
+      },
     }, (res) => {
       let data = '';
       res.on('data', (chunk) => {
@@ -27,6 +32,7 @@ const updateReadme = async(problemCount) => {
       res.on('end', () => {
         debuglog(`info fetched from ${PATH}: ${data}`);
         data = JSON.parse(data);
+        console.log(data['stat_status_pairs'].slice(-1));
         resolve(data);
       });
     });
@@ -43,7 +49,9 @@ const updateReadme = async(problemCount) => {
     const difficultyMap = { 1: 'Easy', 2: 'Medium', 3: 'Hard' };
 
     const link = `[${question__title}](https://leetcode.com/problems/${question__title_slug}/)`;
-    const solutions = `[JavaScript](./JavaScript/${question_id}.${question__title_slug}.js)`;
+
+    // only acceptted problomes has solutions
+    const solutions = item.status === 'ac' ? `[JavaScript](./JavaScript/${question_id}.${question__title_slug}.js)` : '';
     const difficulty = difficultyMap[item.difficulty.level];
 
     const row = `|${question_id}|${link}|${solutions}|${difficulty}|`;
