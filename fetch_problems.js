@@ -43,7 +43,7 @@ const updateReadme = async(problemCount) => {
     const difficultyMap = { 1: 'Easy', 2: 'Medium', 3: 'Hard' };
 
     const link = `[${question__title}](https://leetcode.com/problems/${question__title_slug}/)`;
-    const solutions = `[JavaScript](./JavaScript/${question_id}.${question__title_slug})`;
+    const solutions = `[JavaScript](./JavaScript/${question_id}.${question__title_slug}.js)`;
     const difficulty = difficultyMap[item.difficulty.level];
 
     const row = `|${question_id}|${link}|${solutions}|${difficulty}|`;
